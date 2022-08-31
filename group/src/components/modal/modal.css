@@ -1,0 +1,379 @@
+div.ant-modal-content div.ant-modal-header {
+    padding-top: 50px;
+}
+
+div div.ant-modal-root div.ant-modal-content{
+    border-radius: 10px;
+}
+
+div div.ant-modal-root div.ant-modal-header {
+    border-radius: 10px 10px 0 0;
+    border-bottom: none;
+    padding-bottom: 22px;
+}
+
+div div.ant-modal-root div.ant-modal-footer {
+    border-radius: 0 0 10px 10px;
+    border:none;
+    padding: 24px;
+}
+
+div.ant-modal-header {
+    text-align: center;
+}
+
+div.ant-modal-body div.features {
+    margin-bottom: 15px;
+}
+
+div.ant-modal-body div:nth-child(2){
+    margin-bottom: 0px;
+}
+
+.ant-modal-header .ant-modal-title {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.ant-modal-header input.ant-modal-title{
+    text-align: center;
+}
+
+div.ant-modal-body div:first-child input {
+    background-color: transparent;
+    border-style: none;
+    background-color: #f0f5fa;
+    width: 100%;
+}
+
+#tenNhom {
+    height: 30px;
+}
+
+#tenNhom:focus {
+    outline: none;
+}
+
+#timTV {
+    height: 30px;
+}
+
+#timTV:focus {
+    outline: none;
+}
+
+.addModal__tim {
+    width: 100%;
+    background-color: #f0f5fa;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.addModal__tim > span:first-child {
+    display: flex;
+    padding-right: 5px;
+}
+
+.addModal__tim div {
+    height: 100%;
+    background-color: transparent;
+}
+
+.addModal__tim span svg {
+    height: 100%;
+    width: 20px;
+}
+
+.addModal__tim  span input {
+    background-color: transparent;
+    border-style: none;
+    width: 100%;
+}
+
+.memberList {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+.memberList .memberList__infor {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    width: 370px;
+}
+
+.memberList .memberList__infor span:first-child {
+    margin-right: 15px;
+    text-transform: capitalize;
+}
+
+.memberList .memberList__infor span:nth-child(2){
+    text-transform: capitalize;
+}
+
+.memberList button {
+    background-color: #35794a;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    transition: all 1s;
+    width: 69.25px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.memberList button:hover{
+    background-color:#3b9f5a;
+}
+
+.ant-modal-footer button {
+    width: 117px;
+    height: 44px;
+}
+
+.ant-modal-content div.ant-modal-footer div.addModal__buttons button:nth-child(1){
+    border-color: #35794a;
+    background-color: transparent;
+    color: #35794a;
+    border-radius: 3px;
+}
+
+.ant-modal-footer .addModal__buttons button:nth-child(2){
+    background-color: #35794a;
+    color: white;
+    border-color: transparent;
+    border-radius: 3px;
+}
+
+.ant-modal-footer > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ant-modal-footer button span {
+    line-height: 10px;
+}
+
+.edit {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.edit svg {
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.edit p {
+    margin: 0 0;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.edit {
+    border: dashed 1px #AAAAAA;
+    border-radius: 10px;
+    border-spacing: 2px;
+}
+
+.ant-tabs-nav-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+    color: #35794a;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn .edit{
+    border-style: solid;
+    border-color: #35794a;
+    color: #35794a;
+}
+
+.ant-tabs-tab:hover {
+    color:#35794a;
+}
+
+.ant-tabs-tab-btn:hover {
+    color:#35794a;
+}
+
+.memberList button.btn__remove {
+    background-color: red;
+    border-color: #c90a0a ;
+}
+
+.ant-tabs-ink-bar {
+    width: 0 !important;
+}
+
+.ant-tabs-top > .ant-tabs-nav::before {
+    display: none;
+}
+
+.ant-modal-body .ant-tabs-top > .ant-tabs-nav {
+    margin-bottom: 20px;
+}
+
+.ant-tabs-tab-btn:focus {
+    color: #35794a;
+}
+
+.border__table button.ant-pagination-item-link {
+    color: #29b171;
+    background-color: #e2fff1;
+}
+
+.border__table li.ant-pagination-item {
+    border: none;
+    margin: 0px;
+}
+
+.border__table .ant-pagination-prev{
+    margin-right: 0;
+}
+
+.border__table .ant-pagination-prev:hover button.ant-pagination-item-link,.border__table .ant-pagination-next:hover button.ant-pagination-item-link{
+    border-color: #29b171;
+    color: #12d74f;
+}
+
+.border__table li.ant-pagination-item:hover a {
+    color:#29b171;
+}
+
+.border__table li.ant-pagination-item-active a{
+    color:#29b171;
+}
+
+.border__table ul.ant-pagination {
+    padding: 0 30px;
+}
+
+.border__table li.ant-pagination-total-text {
+    position: absolute;
+    right: 30px;
+    margin-right: 0px;
+}
+
+.border__table .ant-select:not(.ant-select-disabled):hover .ant-select-selector {
+    border-color: #29b171 !important;
+}
+
+.border__table .ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border-color: #29b171 !important;
+    box-shadow: 0 0 0 2px rgb(24 255 111 / 20%) !important;
+}
+
+.border__table .ant-pagination-options {
+    position: absolute;
+    right: 14%;
+}
+
+.border__table li.ant-pagination-options div.ant-select-selector {
+    background-color: #e2fff1;
+}
+
+.ant-tabs-nav-list .ant-tabs-tab:hover {
+    color: #35794a;
+}
+
+.ant-tabs-nav-list .ant-tabs-tab:hover .edit {
+    border-color: #35794a;
+}
+
+.ant-tabs-nav-list .ant-tabs-tab p {
+    color:#666666;
+}
+
+.ant-tabs-nav-list .ant-tabs-tab:hover p {
+    color:#666666;
+}
+
+.ant-tabs-nav-wrap .ant-tabs-nav-list .ant-tabs-tab {
+    margin: 0;
+}
+
+.ant-tabs-nav-wrap .ant-tabs-nav-list .ant-tabs-tab:first-child {
+    margin-right: 12.5px;
+}
+
+.ant-tabs-nav-wrap .ant-tabs-nav-list .ant-tabs-tab:nth-child(2){
+    margin-left: 12.5px;
+}
+
+.ant-tabs-content .ant-tabs-tabpane-active div:nth-child(2) {
+    max-height: 300px !important;
+}
+
+.ant-tabs-content .ant-tabs-tabpane-active div:nth-child(2) > div {
+    max-height: 254px !important;
+}
+
+.ant-tabs-nav-list div.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn .edit {
+    color: #35794a;
+    text-shadow: none;
+}
+
+.ant-tabs-tab-btn:focus {
+    color: #35794a;
+}
+
+div .ant-modal-root .Tab1 {
+    margin-bottom: 12px;
+}
+
+div .ant-modal-root .Tab1 p {
+    margin-bottom: 12px;
+}
+
+.border__header span:hover {
+    opacity: 1;
+}
+
+div .ant-modal-body > div:nth-child(3) {
+    max-height: 300px !important;
+}
+
+div .ant-modal-body > div:nth-child(3) > div {
+    max-height: 254px !important;
+}
+
+div .ant-modal-body div.features p {
+    margin-bottom: 12px;
+}
+
+div .ant-modal-body div.features {
+    margin-bottom: 24px;
+}
+
+.memberList .memberList__infor__PB {
+    width: 55%;
+    text-align: center;
+}
+
+.memberList .memberList__infor span:hover {
+    opacity: 1;
+}
+
+.addModal__tim__icon {
+    cursor: pointer;
+}
+
+.ant-modal-body .features p.features__alert {
+    color: red;
+    margin-bottom: 0;
+}

@@ -1,0 +1,138 @@
+.border-text {
+  margin-top: 20px;
+}
+
+.edit_table {
+  /* width: 32px; */
+  height: 32px;
+  left: 923px;
+  top: 292px;
+  font-weight: 500;
+  margin-right: 19px;
+  background: #e0fff1;
+  border-radius: 4px;
+  border-style: hidden;
+  cursor: pointer;
+  color: #29b171;
+}
+
+.edit_table:hover {
+  background-color: #32de84;
+  color: green;
+  opacity: 0.9;
+}
+
+.delete_table {
+  
+  width: 92px;
+  height: 32px;
+  left: 1034px;
+  top: 292px;
+  font-weight: 500;
+  background: #ffe0e1;
+  border-radius: 4px;
+  text-align: center;
+  color: #f23f44;
+  cursor: pointer;
+  border-style: hidden;
+}
+
+.delete_table:hover {
+  background-color:  	#FFB6C1;
+  /* #ff69b4 */
+  color: #ff1493;
+  opacity: 0.9;
+}
+
+.ant-pagination-total-text {
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+    helvetica neue, Arial, noto sans, sans-serif, apple color emoji,
+    segoe ui emoji, segoe ui symbol, noto color emoji !important;
+  font-weight: 700;
+  font-size: 14px;
+  color: #464e5f;
+  right: 0;
+  position: absolute;
+}
+.ant-pagination-prev:hover .ant-pagination-item-link{
+  border-color: #29B171;
+  color: #29B171;
+}
+.ant-pagination-next:hover .ant-pagination-item-link{
+  border-color: #29B171;
+  color: #29B171;
+}
+.ant-select:not(.ant-select-disabled):hover .ant-select-selector {
+  /* border-color: #29B171; */
+  color: #29B171;
+}
+.pagination .ant-select-selector {
+  background-color: #E2FFF2 !important; ;
+  color: #29B171;
+  width: 55px;
+  max-width: 115px;
+}
+.ant-pagination-options{
+  position: absolute;
+  right: 227px;
+}
+/* List number of page for all two table*/
+
+button.ant-pagination-item-link{
+  background-color: #E2FFF2 !important;
+  color: #29B171;
+  margin-right: 10px;
+  /* margin-left: 10px;  */
+
+}
+.ant-select-dropdown-placement-bottomLeft{
+  min-width: 62px !important;
+}
+.ant-pagination-total-text{
+  margin-right: 38px;
+}
+
+.ant-pagination-item-active{
+  color:#29B171;
+}
+div ant-select ant-pagination-options-size-changer ant-select-single ant-select-show-arrow ant-select-open {
+  /* margin-right: 10px; */
+}
+.ant-table-cell th{
+  text-align: center;
+}
+/* List number of page */
+.pagination .ant-pagination-prev ant-pagination-disabled  {
+  margin-left: 11px;
+}
+ul .ant-pagination ant-table-pagination ant-table-pagination-left pagination-load{
+  margin-top: 50px;
+}
+.ant-table-pagination.ant-pagination{
+  margin: 30px 0 0 10px
+}
+.ant-checkbox-checked .ant-checkbox-inner{
+  background:#29B171;
+  border-color: #29B171;
+}
+.ant-pagination-item-active a{
+  color: #29B171;
+}
+.ant-pagination-item:hover a{
+  color: #29B171;
+}
+.ant-pagination-jump-prev .ant-pagination-item-container .ant-pagination-item-link-icon, .ant-pagination-jump-next .ant-pagination-item-container .ant-pagination-item-link-icon    {
+  color: #29B171;
+}
+.edit_table .ant-table-row ant-table-row-level-0 button.anticon anticon-edit icon-search{
+  color:green
+}
+.ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) .ant-select-selector{
+  border-color:#29B171
+}
+/* .ant-pagination ant-table-pagination ant-table-pagination-left pagination .ant-select:not(.ant-select-disabled):hover .ant-select-selector .ant-select-selector{
+  border-color:#29B171
+} */
+.ant-select-single.ant-select-open .ant-select-selection-item{
+  color:#29B171
+}

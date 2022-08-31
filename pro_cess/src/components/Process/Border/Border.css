@@ -1,0 +1,104 @@
+/* .border-text {
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+    helvetica neue, Arial, noto sans, sans-serif, apple color emoji,
+    segoe ui emoji, segoe ui symbol, noto color emoji !important;
+} */
+.edit_border {
+  width: 92px;
+  height: 32px;
+  font-weight: 500;
+  margin-right: 10px;
+  background: #e0fff1;
+  border-radius: 4px;
+  border-style: hidden;
+  cursor: pointer;
+  color: #29b171;
+}
+.edit_border .ant-btn ant-btn-default edit_border .anticon anticon-edit .ant-btn ant-btn-default edit_border .anticon anticon-edit{
+  color: #29b171;
+}
+.ant-table-content .edit_border:hover {
+  background-color: #32de84;
+  color: green;
+  opacity: 0.9;
+}
+.delete_border {
+  width: 92px;
+  height: 32px;
+  left: 1034px;
+  top: 292px;
+  background: #ffe0e1;
+  border-radius: 4px;
+  text-align: center;
+  color: #f23f44;
+  cursor: pointer;
+  border-style: hidden;
+}
+.delete_border:hover {
+  background-color: #ff69b4;
+  color: #ff1493;
+  opacity: 0.9;
+}
+/* title : Ho va ten, phong ban.... */
+.ant-table-cell {
+  color: #434349;
+  font-weight: 400;
+  font-size: 16;
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+    helvetica neue, Arial, noto sans, sans-serif, apple color emoji,
+    segoe ui emoji, segoe ui symbol, noto color emoji !important;
+}
+/* Phong CNTT, Nhan vien, 90... */
+.ant-table-thead tr th {
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+    helvetica neue, Arial, noto sans, sans-serif, apple color emoji,
+    segoe ui emoji, segoe ui symbol, noto color emoji !important;
+  color: #a1a5b7;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.ant-table-thead tr th span{}
+.ant-table-cell span {
+  /* color: #434349; */
+  font-weight: 700;
+  font-size: 16;
+}
+
+.edit_border .edit_table .anticon anticon-edit{
+  color:green
+}
+.ant-table-tbody > tr td:nth-child(2) {
+  padding: 0;
+}
+.button.ant-btn:hover {
+  background-color: #32de84;
+}
+.ant-spin-container {
+  margin-left: 29, 86px;
+}
+.ant-table-thead tr th {
+  text-align: center;
+}
+/* border-color: #1890ff; */
+
+.ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) .ant-select-selector{
+  border-color: #1890ff;
+}
+.ant-select-selector:hover{
+  border-color: #1890ff;
+}
+.ant-pagination .ant-pagination-options .ant-select-selector:hover{
+  border-color: #29B171;
+  color: #29B171;
+
+}
+.ant-pagination .ant-pagination-options .ant-select-arrow{
+  color: #29B171;
+}
+.ant-spin-container .ant-pagination .ant-pagination-options .ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) .ant-select-selector{
+border-color: #29B171;
+  box-shadow: 0 0 0 2px rgb(11 156 49 /20%);;
+  /* border-right-width: 1px; */
+outline:0
+}

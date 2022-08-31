@@ -1,0 +1,127 @@
+@import "~antd/dist/antd.css";
+/* body {
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+    helvetica neue, Arial, noto sans, sans-serif, apple color emoji,
+    segoe ui emoji, segoe ui symbol, noto color emoji !important;
+} */
+.header_text {
+  width: 548px;
+  height: 27px;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  /* line-height: 21px; */
+  color: #434349;
+}
+.input {
+  width: 200px;
+  height: 40px;
+  left: 26px;
+  top: 73px;
+}
+.input-btn {
+  display: flex;
+  justify-content: space-between;
+}
+.ant-select-selection-placeholder {
+  display: flex;
+  align-items: center;
+}
+
+.select-box .ant-select-selector {
+  height: 100% !important;
+  background: #f0f5fa !important  ;
+}
+.ant-select-selection-search {
+  height: 100% !important;
+  display: flex;
+  align-items: center;
+}
+button.ant-pagination-item-link {
+  background-color: #e2fff2 !important;
+  color: #29b171;
+}
+.pagination-load .ant-select-selector {
+  background-color: #e2fff2 !important;
+  color: #29b171;
+  width: 55px;
+  max-width: 115px;
+}
+.ant-pagination-options {
+  position: absolute;
+  right: 255px;
+}
+li .nofollow {
+  color: red;
+}
+li.ant-pagination-item {
+  color: #29b171;
+  border: none;
+}
+.ant-table-tbody {
+  text-align: center;
+}
+/* Ho va ten */
+.full-name {
+  width: 200px;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 19px;
+  background: #f0f5fa;
+  border-radius: 3px;
+}
+/* Tim kiem */
+.btn-search {
+  width: 115px;
+  height: 40px;
+  margin-left: 40px;
+  background: #35794a;
+  color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #35794a;
+  box-sizing: border-box;
+}
+/* danh gia nhanh */
+.btn-check {
+  width: 150px;
+  height: 40px;
+  margin-left: 80px;
+  margin-right: 30px;
+  margin-top: 19px;
+  background: #35794a;
+  color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #35794a;
+
+
+  box-sizing: border-box;
+}
+.search .btn-check.ant-btn:focus,
+button.ant-btn:hover{
+  background: #35794a;
+  color: #ffffff;
+}
+/* chuc vu, Phong ban */
+.select-box {
+  width: 200px;
+  height: 40px;
+  margin-left: 35px;
+  border-radius: 3px;
+}
+.search .btn-search.ant-btn:focus,
+button.ant-btn:hover{
+  background: #35794a;
+  color: #ffffff;
+}
+.ant-checkbox-indeterminate .ant-checkbox-inner::after {
+  background: #29B171;
+
+}
+/* .ant-select:not(.ant-select-disabled):hover {
+  border-color: red;
+  
+  } */
